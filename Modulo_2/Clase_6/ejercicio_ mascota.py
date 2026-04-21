@@ -51,19 +51,21 @@ class Cliente:
 
 
 
-cliente = Cliente("Karol")
+cliente = Cliente("Karol Riascos")
 mascota1 = Mascota("Renata", "Canino")
 mascota2 = Mascota("Olivia", "Felino")
 
 cliente.agregar_mascota(mascota1)
 cliente.agregar_mascota(mascota2)
 
-veterinario1 = Veterinario("Ivan")
+veterinario1 = Veterinario("Yiduar Andrés Agonia")
 
 consulta1 = Consulta(mascota1, "linda")
+consulta2 = Consulta(mascota2, "hacer masitas")
 
 cliente.mostrar_mascotas()
 
 print(veterinario1.atender())
 print(consulta1.mostrar_consulta())
+print(consulta2.mostrar_consulta())
         
