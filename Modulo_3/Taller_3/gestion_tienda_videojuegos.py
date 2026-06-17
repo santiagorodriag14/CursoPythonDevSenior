@@ -1,3 +1,4 @@
+#Taller integrador módulo 3
 videojuegos = {
     "VG001": {
         "nombre": "FIFA 26",
@@ -162,7 +163,7 @@ def menu():
             eliminar_videojuego(videojuegos)
         elif opcion == 8:
             break
-        elif opcion < 1 or opcion > 8 :
+        elif opcion < 1 or opcion > 8 : 
             print("Por favor elija una opción correcta.\n")
 
 menu()
